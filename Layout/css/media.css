@@ -1,0 +1,155 @@
+@media (max-width: 1199px) {
+  .container {
+    padding: 0 50px;
+  }
+
+  .hero__wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 992px) {
+  .header__name {
+    font-size: 24px;
+  }
+
+  .nav__link {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 30px;
+  }
+
+  .header {
+    margin-bottom: 20px;
+  }
+
+  .header__btn {
+    display: block;
+    align-self: center;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .user-card__text {
+    font-size: 20px;
+  }
+
+  .footer__container {
+    margin: 0 -15px;
+    font-size: 16px;
+    border-radius: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  .btn:not(.header__btn) {
+    padding: 4px 15px;
+    font-size: 16px;
+  }
+
+  .hero {
+    margin-bottom: 45px;
+  }
+
+  .hero__content {
+    margin-top: 0;
+    margin-bottom: 55px;
+  }
+
+  .hero__header {
+    font-size: 34px;
+  }
+
+  .hero__title {
+    margin-bottom: 15px;
+    font-size: 24px;
+  }
+
+  .hero__btn-container {
+    margin-bottom: 15px;
+  }
+
+  .hero__desc {
+    font-size: 18px;
+  }
+
+  .user-card {
+    margin-bottom: 30px;
+  }
+
+  .user-card__body {
+    padding: 30px;
+  }
+
+  .user-card__text {
+    margin-bottom: 60px;
+  }
+
+  .user-card__text--bold {
+    margin-bottom: 0;
+  }
+
+  .user-card__footer {
+    padding: 18px 34px;
+  }
+
+  .user-card__footer__text {
+    font-size: 26px;
+  }
+  
+  .footer__container {
+    position: relative;
+  }
+
+  .footer__copywrite {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .footer__wrapper {
+    position: absolute;
+    top: -70px;
+    left: 50%;
+    justify-content: space-between;
+    padding: 0 15px;
+    width: 100%;
+    color: var(--black);
+    font-size: 20px;
+    transform: translateX(-50%);
+  }
+
+  .footer__wrapper svg path {
+    stroke: var(--black);
+  }
+
+  .footer__link-container__link:hover,
+  .footer__link-container__link:focus,
+  .footer__link-container__link:active {
+    color: var(--blue-hover);
+  }
+
+  .footer__link-container__link:hover svg path,
+  .footer__link-container__link:focus svg path,
+  .footer__link-container__link:active svg path {
+    stroke: var(--blue-hover);
+  }
+}
+
+@media (max-width: 576px) {
+  .footer__wrapper {
+    font-size: 16px;
+  }
+}
